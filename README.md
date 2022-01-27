@@ -2032,8 +2032,8 @@ local StudsOffset = 0 -- Character height (negative if you're too high)
 local Smoothness = .5 -- Character interpolation (0.1 - 1 = smooth - rigid)
 local AnchorCharacter = false -- Prevent physics from causing inconsistencies
 local HideCharacter = false -- Hide character on a platform
-local NoCollision = false -- Disable player collision
-local ChatEnabled = true -- See chat on your left hand in-game
+local NoCollision = true -- Disable player collision
+local ChatEnabled = false -- See chat on your left hand in-game
 local ChatLocalRange = 75 -- Local chat range
 local ViewportEnabled = true -- View nearby players in a frame
 local ViewportRange = 30 -- Maximum distance players are updated
