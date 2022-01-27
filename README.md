@@ -2029,7 +2029,7 @@ end)
 
 --|| Settings:
 local StudsOffset = 0 -- Character height (negative if you're too high)
-local Smoothness = .5 -- Character interpolation (0.1 - 1 = smooth - rigid)
+local Smoothness = 0.1 -- Character interpolation (0.1 - 1 = smooth - rigid)
 local AnchorCharacter = false -- Prevent physics from causing inconsistencies
 local HideCharacter = false -- Hide character on a platform
 local NoCollision = true -- Disable player collision
